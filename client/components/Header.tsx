@@ -21,7 +21,9 @@ const Header = () => {
               <Link href={"/"}>
                 <ShoppingCart className="text-white" />
               </Link>
-              <Button>Contact Us</Button>
+              <Button className=" text-black bg-white h-14 w-[150px] text-xl hover:bg-amber-400 duration-300">
+                Contact Us
+              </Button>
             </div>
           </div>
           <div className="md:hidden">MobileMenu</div>

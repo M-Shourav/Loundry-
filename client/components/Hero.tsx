@@ -19,7 +19,7 @@ const Hero = () => {
       <div className=" absolute inset-0 bg-black/40" />
       <Container className="relative z-10 py-10">
         <div className=" flex flex-col gap-8">
-          <h1 className="text-white text-7xl font-bold max-w-2xl">
+          <h1 className="text-white text-8xl font-bold max-w-5xl uppercase">
             Do your {""}
             <span className=" text-amber-200">laundry </span>
             {""}

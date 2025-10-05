@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bubbles Laundry Smart & Affordable Laundry Service ",
+  title: "Bubbles Laundry  Smart & Affordable Laundry Service ",
   description:
     "Experience premium laundry care with Bubbles Laundry. We provide fast, eco-friendly washing, ironing, and delivery services at your doorstep. Clean clothes, happy life!",
 };
