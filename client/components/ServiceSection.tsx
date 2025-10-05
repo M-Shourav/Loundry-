@@ -34,7 +34,7 @@ const ServiceSection = () => {
         </div>
         <div className="">
           <Tabs defaultValue="wash&fold">
-            <TabsList className=" gap-4 max-w-4xl mx-auto">
+            <TabsList className="flex flex-wrap gap-4 max-w-4xl mx-auto">
               <TabsTrigger value="wash&fold" className="">
                 Wash & Fold
               </TabsTrigger>
@@ -69,7 +69,7 @@ const ServiceSection = () => {
                     <h3 className="text-xl font-semibold uppercase">
                       What we offer
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 mt-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                       <div className="flex items-center gap-x-3">
                         <span className="w-8 h-8 flex items-center justify-center rounded-sm bg-amber-200">
                           <Check size={40} />
@@ -136,7 +136,7 @@ const ServiceSection = () => {
                     <h3 className="text-xl font-semibold uppercase">
                       What we offer
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 mt-4">
+                    <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                       <div className="flex items-center gap-x-3">
                         <span className="w-8 h-8 flex items-center justify-center rounded-sm bg-amber-200">
                           <Check size={40} />
@@ -203,7 +203,7 @@ const ServiceSection = () => {
                     <h3 className="text-xl font-semibold uppercase">
                       What we offer
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 mt-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                       <div className="flex items-center gap-x-3">
                         <span className="w-8 h-8 flex items-center justify-center rounded-sm bg-amber-200">
                           <Check size={40} />
@@ -270,7 +270,7 @@ const ServiceSection = () => {
                     <h3 className="text-xl font-semibold uppercase">
                       What we offer
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 mt-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                       <div className="flex items-center gap-x-3">
                         <span className="w-8 h-8 flex items-center justify-center rounded-sm bg-amber-200">
                           <Check size={40} />
@@ -341,7 +341,7 @@ const ServiceSection = () => {
                     <h3 className="text-xl font-semibold uppercase">
                       What we offer
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 mt-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                       <div className="flex items-center gap-x-3">
                         <span className="w-8 h-8 flex items-center justify-center rounded-sm bg-amber-200">
                           <Check size={40} />
@@ -406,7 +406,7 @@ const ServiceSection = () => {
                     <h3 className="text-xl font-semibold uppercase">
                       What we offer
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 mt-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                       <div className="flex items-center gap-x-3">
                         <span className="w-8 h-8 flex items-center justify-center rounded-sm bg-amber-200">
                           <Check size={40} />
