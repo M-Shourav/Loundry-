@@ -1,20 +1,33 @@
 import React from "react";
 import Container from "./Container";
-import { Navigation } from "./Navigation";
+import Navigation from "./Navigation";
+import Link from "next/link";
+import { Button } from "./ui/button";
+import { ShoppingCart } from "lucide-react";
+import Image from "next/image";
+import { BlackLogo, WhiteLogo } from "@/public/images";
 
 const Header = () => {
   return (
-    <section>
+    <div className=" relative z-10">
       <div className="w-full h-20">
         <Container className=" h-full flex items-center justify-between gap-4">
-          <div>logo</div>
-          <div className="hidden md:inline-flex">
+          <div>
+            <Image src={WhiteLogo} alt="Brand-logo" />
+          </div>
+          <div className="flex items-center gap-10">
             <Navigation />
+            <div className="flex items-center gap-8">
+              <Link href={"/"}>
+                <ShoppingCart className="text-white" />
+              </Link>
+              <Button>Contact Us</Button>
+            </div>
           </div>
           <div className="md:hidden">MobileMenu</div>
         </Container>
       </div>
-    </section>
+    </div>
   );
 };
 
