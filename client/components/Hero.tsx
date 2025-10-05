@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative h-screen overflow-hidden">
+    <section className="relative lg:h-screen overflow-hidden">
       <Header />
       <video
         autoPlay
@@ -19,7 +19,7 @@ const Hero = () => {
       <div className=" absolute inset-0 bg-black/40" />
       <Container className="relative z-10 py-10">
         <div className=" flex flex-col gap-8">
-          <h1 className="text-white text-8xl font-bold max-w-5xl uppercase">
+          <h1 className="text-white text-4xl md:text-6xl lg:text-8xl font-bold w-full max-w-5xl uppercase">
             Do your {""}
             <span className=" text-amber-200">laundry </span>
             {""}

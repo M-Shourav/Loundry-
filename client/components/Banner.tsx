@@ -2,10 +2,8 @@ import React from "react";
 import Container from "./Container";
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "./ui/card";
@@ -16,8 +14,8 @@ const Banner = () => {
   return (
     <section>
       <Container className="py-20">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <h2 className="text-4xl font-extrabold leading-[40px] uppercase">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
+          <h2 className="text-2xl md:text-4xl font-extrabold leading-[40px] uppercase">
             your trusted partner in achieving pristine.
           </h2>
           <p className="text-xl font-normal">
@@ -26,7 +24,7 @@ const Banner = () => {
             eco-friendly practices.
           </p>
         </div>
-        <div className="mt-10 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-between gap-8">
           <Card className="group relative">
             <div className=" absolute inset-0 bg-amber-200 -z-1 rounded-2xl group-hover:-rotate-5 duration-300" />
             <CardHeader>

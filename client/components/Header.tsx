@@ -15,7 +15,7 @@ const Header = () => {
           <div>
             <Image src={WhiteLogo} alt="Brand-logo" />
           </div>
-          <div className="flex items-center gap-10">
+          <div className="hidden lg:inline-flex  items-center gap-10">
             <Navigation />
             <div className="flex items-center gap-8">
               <Link href={"/"}>
@@ -26,7 +26,7 @@ const Header = () => {
               </Button>
             </div>
           </div>
-          <div className="md:hidden">MobileMenu</div>
+          <div className="lg:hidden">MobileMenu</div>
         </Container>
       </div>
     </div>
