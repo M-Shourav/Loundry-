@@ -23,7 +23,7 @@ import { Button } from "./ui/button";
 const ServiceSection = () => {
   return (
     <section>
-      <Container className="py-20 flex flex-col gap-y-10">
+      <Container className=" flex flex-col gap-y-10">
         <div className=" flex flex-col items-center justify-start gap-y-4">
           <h2 className="text-7xl font-extrabold text-center">Service</h2>
           <p className=" max-w-2xl mx-auto text-lg font-normal text-center">

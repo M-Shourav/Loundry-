@@ -9,6 +9,7 @@ import tabsBg3 from "./Tabs3.webp";
 import tabsBg4 from "./Tabs4.webp";
 import tabsBg5 from "./Tabs5.webp";
 import tabsBg6 from "./Tabs6.webp";
+import machine_1 from "./machine.webp";
 
 export {
   WhiteLogo,
@@ -22,4 +23,5 @@ export {
   tabsBg4,
   tabsBg5,
   tabsBg6,
+  machine_1,
 };
